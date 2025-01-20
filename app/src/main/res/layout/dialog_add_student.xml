@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Поле для ввода имени -->
+    <EditText
+        android:id="@+id/editTextStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Поле для ввода фамилии -->
+    <EditText
+        android:id="@+id/editTextStudentSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Фамилия"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Поле для ввода email -->
+    <EditText
+        android:id="@+id/editTextStudentEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Поле для ввода логина -->
+    <EditText
+        android:id="@+id/editTextStudentLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Логин"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Поле для ввода пароля -->
+    <EditText
+        android:id="@+id/editTextStudentPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Спиннер для выбора группы -->
+    <Spinner
+        android:id="@+id/spinnerGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:prompt="@string/select_group_prompt" />
+
+    <!-- Кнопка для сохранения -->
+    <Button
+        android:id="@+id/buttonSaveStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"/>
+</LinearLayout>

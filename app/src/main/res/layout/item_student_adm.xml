@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- Имя и фамилия студента -->
+    <TextView
+        android:id="@+id/textViewStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Имя Фамилия"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Email студента -->
+    <TextView
+        android:id="@+id/textViewStudentEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: student@example.com"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Логин студента -->
+    <TextView
+        android:id="@+id/textViewStudentLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Логин: student_login"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Логин студента -->
+    <TextView
+        android:id="@+id/textViewStudentGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Группа: group"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Кнопки для редактирования и удаления -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <!-- Кнопка для редактирования -->
+        <Button
+            android:id="@+id/buttonEditStudent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Изменить"
+            android:layout_marginEnd="8dp"/>
+
+        <!-- Кнопка для удаления -->
+        <Button
+            android:id="@+id/buttonDeleteStudent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Удалить"/>
+    </LinearLayout>
+</LinearLayout>

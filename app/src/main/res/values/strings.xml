@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StudentsDB</string>
+    <string name="group_name_hint">Название группы</string>
+    <string name="add_group">Добавить группу</string>
+    <string name="edit_group">Изменить группу</string>
+    <string name="delete_group">Удалить группу</string>
+    <string name="select_group_prompt">Выберите группу</string>
+
+</resources>

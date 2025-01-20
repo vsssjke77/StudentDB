@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- Название группы -->
+    <TextView
+        android:id="@+id/textViewGroupName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:text="Название группы"
+        android:layout_gravity="center_vertical"/>
+
+    <!-- Кнопка для редактирования -->
+    <Button
+        android:id="@+id/buttonEditGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Изменить"
+        android:layout_marginEnd="8dp"/>
+
+    <!-- Кнопка для удаления -->
+    <Button
+        android:id="@+id/buttonDeleteGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Удалить"/>
+</LinearLayout>

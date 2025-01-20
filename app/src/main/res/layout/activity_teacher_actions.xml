@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Кнопка для добавления преподавателя -->
+    <Button
+        android:id="@+id/buttonAddTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить преподавателя"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- RecyclerView для отображения списка преподавателей -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewTeachers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
